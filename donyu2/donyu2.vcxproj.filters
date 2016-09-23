@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="review3.c">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="review1.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
