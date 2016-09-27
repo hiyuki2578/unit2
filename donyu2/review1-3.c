@@ -1,13 +1,11 @@
-}
 #include<stdio.h>
 int main(void) {
-	int i, n;
-
-	printf("n‚É®”‚ğİ’è‚µ‚Ä‚­‚¾‚³‚¢:");
-	scanf("%d", &n);
-	for (i = 0;i <= n;i--) {
-		printf("%d\n,i");
-	}
-	return(0);
+int a=10, b;
+printf("%d+b=12ã®ã¨ãã€bã®å€¤ã¯ï¼Ÿï¼š", a);
+scanf("%d", &b);
+if (a+b==12) { printf("æ­£è§£ã§ã™ã€‚\n");
+} else {
+printf("ãã‚Œã¯é•ã„ã¾ã™ã€‚\n");
 }
-
+return(0);
+}
