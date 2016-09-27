@@ -18,6 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="review2-1.c" />
+    <ClCompile Include="review2-3.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A897238E-88D6-43AE-8E37-11B85C4C044E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -142,9 +146,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="review1.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="review1.c">
+    <ClCompile Include="review2-3.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="review2-1.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
