@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(void) {
-	printf("‰½‚©ƒL[‚ğ‰Ÿ‚µ‚Ä‚­‚¾‚³‚¢");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	getchar();
 	printf("HelloWorld!\n");
 return(0);
