@@ -1,16 +1,16 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 int main(void) {
 	int a, b;
-	printf("�ϐ�A�ɐ�����ݒ肵�Ă�������:");
+	printf("変数Aに整数を設定してください:");
 	scanf("%d", &a);
-	printf("�ϐ�B�ɐ�����ݒ肵�Ă�������:");
+	printf("変数Bに整数を設定してください:");
 	scanf("%d", &b);
 	if (a < b) {
-		printf("B�̕���A���%d�傫���ł��B\n",b-a );
+		printf("Bの方がAより%d大きいです。\n",b-a );
 	}else if (b < a) {
-		printf("A�̕���B���%d�傫���ł��B\n", a - b);
+		printf("Aの方がBより%d大きいです。\n", a - b);
 	}else {
-		printf("A��B�͓������ł��B\n");
+		printf("AとBは等しいです。\n");
 	}
 	return(0);
 }

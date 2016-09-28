@@ -1,7 +1,7 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 int main(void) {
 	int i, n;
-	printf("n‚É®”‚ğİ’è‚µ‚Ä‚­‚¾‚³‚¢:");
+	printf("nã«æ•´æ•°ã‚’è¨­å®šã—ã¦ãã ã•ã„:");
 	scanf("%d", &n);
 	for (i = 0;i <= n;i++) {
 		printf("%d\n", i);

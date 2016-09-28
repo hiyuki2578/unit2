@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(void) {
-	printf("�����L�[�������Ă�������");
+	printf("なにかキーを押してください。");
 	getchar();
 	printf("HelloWorld!\n");
 return(0);
