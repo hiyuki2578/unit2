@@ -6,6 +6,6 @@ int main(void) {
 			sum = sum + no[i];
 		}
 	sum = sum / i;
-	printf("•½‹Ï’l%f",sum);
+	printf("å¹³å‡å€¤%f",sum);
 	return 0;
 }

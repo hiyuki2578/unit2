@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void) {
 	int no;
-	printf("数値の入力");
+	printf("整数値の入力");
 	scanf("%d", &no);
 	for (no;no>=1;no--){
 		printf("%d ", no);
