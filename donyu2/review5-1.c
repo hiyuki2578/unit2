@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void) {
 	int no;
-	printf("®”’l‚ð“ü—Í = ");
+	printf("æ•°å€¤ã®å…¥åŠ›");
 	scanf("%d", &no);
 	for (no;no>=1;no--){
 		printf("%d ", no);
