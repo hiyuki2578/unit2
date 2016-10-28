@@ -11,7 +11,7 @@ int main(void) {
 	for (i = 0;i<9;i++) {
 		x = (double)rand() / RAND_MAX;
 		if (x<avg) {
-			printf("%s\n", str[0]); printf(�gHIT\n�h);
+			printf("%s\n", str[0]); printf("________");
 			count++;
 		}
 		else {
