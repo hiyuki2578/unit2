@@ -8,6 +8,6 @@ int main(void) {
 	}
 	fprintf(fp,"%s\n",str);
 	fclose(fp);
-	return (0);
+	return 0;
 }
 
