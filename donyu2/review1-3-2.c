@@ -10,6 +10,6 @@ int main(void) {
 			b = b + 1;
 		}
 	}
-	printf("\ウーロン茶が好きな人は%d人でした。\n", b);
+	printf("ウーロン茶が好きな人は%d人でした。\n", b);
 	return 0;
 }

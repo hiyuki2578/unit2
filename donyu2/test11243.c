@@ -5,7 +5,7 @@ int main(void) {
 	int i;
 	FILE *fpr, *fpw;
 	if ((fpr = fopen("input.txt", "r")) == NULL) {
-		printf("ファイルを開けませんでした¥n"); 
+		printf("ファイルを開けませんでした\n"); 
 		return 1;
 	}
 	for (i = 0;i < 3;i++) {
@@ -13,7 +13,7 @@ int main(void) {
 	}
 	fclose(fpr);
 	if ((fpw = fopen("output.txt", "w")) == NULL) {
-		printf("ファイルを開けませんでした¥n");
+		printf("ファイルを開けませんでした\n");
 		return 1;
 	}
 	for (i = 0;i < 3;i++) {
