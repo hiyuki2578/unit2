@@ -5,7 +5,7 @@ int main(void) {
 	int i;
 	FILE *fpr, *fpw;
 	if ((fpr = fopen("input.txt", "r")) == NULL) {
-		printf("ƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚Ü‚¹‚ñ‚Å‚µ‚½\n"); 
+		printf("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã‘ã¾ã›ã‚“ã§ã—ãŸÂ¥n"); 
 		return 1;
 	}
 	for (i = 0;i < 3;i++) {
@@ -13,12 +13,12 @@ int main(void) {
 	}
 	fclose(fpr);
 	if ((fpw = fopen("output.txt", "w")) == NULL) {
-		printf("ƒtƒ@ƒCƒ‹‚ğŠJ‚¯‚Ü‚¹‚ñ‚Å‚µ‚½\n");
+		printf("ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã‘ã¾ã›ã‚“ã§ã—ãŸÂ¥n");
 		return 1;
 	}
 	for (i = 0;i < 3;i++) {
-		fprintf(fpw, "•”‰®:%d ", room[i]);
-		fprintf(fpw, "ƒR[ƒX:%s", name[i]);
+		fprintf(fpw, "éƒ¨å±‹:%d ", room[i]);
+		fprintf(fpw, "ã‚³ãƒ¼ã‚¹:%s\n", name[i]);
 	}
 	fclose(fpw);
 	return 0;
