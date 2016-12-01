@@ -9,6 +9,6 @@ int main(void) {
 		x = (double)rand()/RAND_MAX;
 		printf("%f\n", x);
 	}
-	return(0);
+	return 0;
 }
 

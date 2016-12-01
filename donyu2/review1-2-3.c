@@ -12,5 +12,5 @@ int main(void) {
 	}else {
 		printf("AとBは等しいです。\n");
 	}
-	return(0);
+	return 0;
 }

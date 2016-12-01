@@ -14,11 +14,15 @@ int main(void){
 	srand((unsigned)time(NULL));
 	for(i=0;i<10;i++){
 		x=(double)rand()/RAND_MAX;
-	if(x<0.5)HL='L'
-	else HL ='H';		
-	printf("乱数値は%f[%c]です\n",x,HL);
+		if(x<0.5){
+			HL = 'L';
+		}else{
+			HL = 'H';
+		}
+		printf("乱数値は%f[%c]です\n",x,HL);
+	}
 	fprintf(fp,"%c",HL);
 	fclose(fp);
-	return(0);
+	return 0;
 }
 	

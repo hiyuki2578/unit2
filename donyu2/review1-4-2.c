@@ -8,6 +8,6 @@ int main(void) {
 		a = rand();
 		printf("%d\n",a);
 	}
-	return(0);
+	return 0;
 }
 

@@ -6,18 +6,18 @@ int main(void) {
 	int i, count = 0;
 	double avg, x;
 	srand((unsigned)time(NULL));
-		printf("打率:");
+	printf("打率:");
 	scanf("%lf", &avg);
 	for (i = 0;i<9;i++) {
 		x = (double)rand() / RAND_MAX;
 		if (x<avg) {
-			printf("%s\n", str[0]); printf("________");
+			printf("%s\n", str[0]);;
 			count++;
 		}
 		else {
 			printf("%s\n", str[1]);
 		}
 	}
-	printf("HITは%d本", count);
+	printf("HITは%d本\n", count);
 	return 0;
 }

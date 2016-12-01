@@ -1,26 +1,25 @@
 #include<stdio.h>
+#include<stdlib.h>
+void fp_err(){
+	printf("ファイルを開けませんでした。\n");
+	exit(1);
+}
 int main(void){
-	int a=0;
-	double b=0, c=0;
-	double data[10];
+	int i;
+	double sum=0,tmp;
 	FILE *fp;
 	if ((fp = fopen("wed1.txt", "r")) == NULL) {
-		printf("ファイルを開けませんでした。\n");
-		return 1;
+		fp_err();
 	}
-	for (;; a++) {
-		if ((fscanf(fp, "%lf", &data[a])) == EOF) break;
+	for (i=0;i<10;i++) {
+		fscanf(fp, "%lf", &tmp);
+		sum += tmp;
 	}
 	fclose(fp);
 	if ((fp = fopen("wed2.txt", "w")) == NULL) {
-		printf("ファイルを開けませんでした。\n");
-		return 1;
+		fp_err();
 	}
-	for (a = 0; a < 10; a++) {
-		b += data[a];
-	}
-	c = b / 10;
-	fprintf(fp, "合計:%f\n平均値:%f\n", b, c);
+	fprintf(fp, "合計:%f\n平均値:%f\n", sum, sum/10);
 	fclose(fp);
-	return(0);
+	return 0;
 }

@@ -23,5 +23,5 @@ int main(void)
 	fprintf(fp, "\n");
 	printf("test451.txtにデータを書き込みます。\n");
 	fclose(fp);
-	return(0);
+	return 0;
 }
