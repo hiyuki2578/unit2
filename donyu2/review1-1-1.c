@@ -3,5 +3,5 @@ int main(void) {
 	printf("なにかキーを押してください。");
 	getchar();
 	printf("HelloWorld!\n");
-return(0);
+	return 0;
 }

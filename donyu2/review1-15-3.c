@@ -16,11 +16,11 @@ int main(void){
 		gets(name[i]);
 	}
 	printf("全学年のリストを表示します\n");
-	printf("学籍番号　名前");
+	printf("学籍番号　名前\n");
 	for(i=0;i<4;i++){
 		printf("%s %s\n",number[i],name[i]);
 	}
 	fclose(fp);
-	return(0);
+	return 0;
 }
 	

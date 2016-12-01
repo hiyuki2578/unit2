@@ -15,5 +15,5 @@ int main(void)
 	fscanf(fp, "%s", a);
 	printf("%s\n", a);
 	fclose(fp);
-	return(0);
+	return 0;
 }
