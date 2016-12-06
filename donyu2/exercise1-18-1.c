@@ -3,18 +3,18 @@ typedef struct {
 	char name[20];
 	int point;
 }data;
+void print_point (data student) {
+	printf("%sの点数は%d点です\n",student.name,student.point);
+}
 int main(void){
-	data person[3];
 	int i;
+	data person[3]={
+		{"yamada",92},
+		{"sato",85},
+		{"takahashi",66},
+	};
 	for(i=0;i<3;i++){
-		printf("名前\n");
-		scanf("%s",person[i].name);
-		printf("点数\n");
-		scanf("%d",&person[i].point);
-		printf("\n");
-	}
-	for(i=0;i<3;i++){
-		printf("%sの点数は%d点です\n",person[i].name,person[i].point);
+		print_point(person[i]);
 	}
 	return 0;
 }
