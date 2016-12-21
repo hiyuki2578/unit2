@@ -28,9 +28,9 @@ struct data{
 		mash_sum+=student[i].math;
 		japanese_sum+=student[i].japanese;
 	}
-	printf("英語平均:%f",(double)english_sum/5);
-	printf("数学平均:%f",(double)mash_sum/5);
-	printf("国語平均:%f",(double)japanese_sum/5);
+	printf("英語平均:%f\n",(double)english_sum/5);
+	printf("数学平均:%f\n",(double)mash_sum/5);
+	printf("国語平均:%f\n",(double)japanese_sum/5);
 	fclose(fp);
 	return 0;
 }
