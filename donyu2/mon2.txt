@@ -1,0 +1,47 @@
+﻿#include<stdio.h>
+typedef struct{
+
+char name[20];
+
+int num,eng,math,jpn;
+}data;
+
+int main(){
+
+int i;
+
+double eng=0,math=0,jpn=0;
+
+FILE *fp;
+
+data s[3];
+for(i=0;i<3;i++){
+printf("%d人目 Name : ",i+1);
+scanf("%s",s[i].name);
+printf("Num : ");
+scanf("%d",&s[i].num);
+printf("Eng : ");
+scanf("%d",&s[i].eng);
+printf("Math: ");
+scanf("%d",&s[i].math);
+printf("Jpn : ");
+
+scanf("%d",&s[i].jpn);
+	}
+if((fp =fopen("mon2.txt","w"))==NULL){
+printf("ファイルを開けませんでした。\n");
+
+return 1;
+}
+for(i=0;i<3;i++){
+
+fprintf(fp,"%s,%d,%d,%d,%d\n",s[i].name,s[i].num,s[i].eng,s[i].math,s[i].jpn);
+eng += s[i].eng;
+math += s[i].math;
+jpn += s[i].jpn;
+}
+fprintf(fp,"Ave,,%lf,%lf,%lf\n",eng/3.0,math/3.0,jpn/3.0);
+fclose(fp);
+return 0;
+
+}
