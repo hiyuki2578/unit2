@@ -1,0 +1,4 @@
+Slime 150 135
+Goblin 220 350
+Knight 780 980
+
